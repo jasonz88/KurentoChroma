@@ -20,8 +20,7 @@ Media Server.
 
 compile and install
 ---------------
-mkdir build; cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=/usr && sudo make install
+mkdir build; cd build; cmake .. -DCMAKE_INSTALL_PREFIX=/usr && sudo make install
 
 
 What is Kurento
