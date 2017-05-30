@@ -7,6 +7,8 @@
 
 Copyright © 2013-2016 [Kurento]. Licensed under [Apache 2.0 License].
 
+
+
 kms-chroma
 ==========
 
@@ -14,6 +16,13 @@ Chroma filter element for Kurento Media Server.
 
 The kms-chroma project contains a *chroma filter* element for the Kurento
 Media Server.
+
+
+compile and install
+---------------
+mkdir build; cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr && sudo make install
+
 
 What is Kurento
 ---------------
